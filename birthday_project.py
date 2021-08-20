@@ -5,8 +5,8 @@ import datetime as dt
 import pandas as pd
 import random
 
-my_email = "testmailasmtp@gmail.com"
-password = "yfuttzrpzuhircwx"
+my_email = "google mail@gmail.com"
+password = "APP PASWORD"
 
 
 now = dt.datetime.now()
