@@ -1,12 +1,9 @@
-#login testmailasmtp@gmail.com
-#hasło testsmtp
-
 import smtplib
 import datetime as dt
 import random
 
-my_email = "testmailasmtp@gmail.com"
-password = "testsmtp"
+my_email = "gmailemailp@gmail.com"
+password = "APP PASWORD"
 
 now = dt.datetime.now()
 
@@ -35,16 +32,3 @@ if day_of_week == 0:
 quotes_list.remove(random_quote)
 
 quotes.close()
-
-
-
-
-
-# if year == 2021:
-#     print("gówniana sprwa")
-
-# print(now, year, month, day_of_week)
-
-# date_of_birth = dt.datetime(year=1991, month=10, day=14, hour=4)
-#
-# print(date_of_birth)
