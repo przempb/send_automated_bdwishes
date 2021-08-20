@@ -26,7 +26,7 @@ if day_of_week == 0:
         # enkrypcja maila, zabezpieczenie połączenia
         connection.starttls()
         connection.login(user=my_email, password=password)
-        connection.sendmail(from_addr=my_email, to_addrs="przem.pb@gmail.com",
+        connection.sendmail(from_addr=my_email, to_addrs="p.pb@gmail.com",
                             msg=f"Subject: Quote of the day! \n\n {random_quote}")
 
 quotes_list.remove(random_quote)
